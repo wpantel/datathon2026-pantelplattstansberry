@@ -1,2 +1,8 @@
+# .vscode
+.vscode/
+
+# .cursor
+.cursor/
+
 # agent workflows for Gemini
 .agent/
