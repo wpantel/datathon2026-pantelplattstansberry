@@ -12,8 +12,10 @@
   --color-foreground: var(--foreground);
   --color-accent-start: var(--accent-start);
   --color-accent-end: var(--accent-end);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-outfit-font);
   --font-mono: var(--font-geist-mono);
+  --font-montserrat: var(--font-montserrat-font);
+  --font-outfit: var(--font-outfit-font);
 }
 
 body {
@@ -23,57 +25,73 @@ body {
 }
 
 @keyframes gradient-shift {
-  0%, 100% {
-    transform: translate(0, 0) scale(1);
+
+  0%,
+  100% {
     opacity: 0.3;
   }
+
   50% {
-    transform: translate(10%, 10%) scale(1.1);
     opacity: 0.4;
   }
 }
 
 @keyframes float-slow {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translate(0, 0);
   }
+
   50% {
     transform: translate(30px, -30px);
   }
 }
 
 @keyframes float-delayed {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translate(0, 0);
   }
+
   50% {
     transform: translate(-40px, 40px);
   }
 }
 
 @keyframes float-medium {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translate(0, 0);
   }
+
   50% {
     transform: translate(20px, 30px);
   }
 }
 
 @keyframes float-reverse {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translate(0, 0);
   }
+
   50% {
     transform: translate(-25px, -35px);
   }
 }
 
 @keyframes pulse-slow {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 0.15;
     transform: scale(1);
   }
+
   50% {
     opacity: 0.3;
     transform: scale(1.05);
@@ -84,16 +102,20 @@ body {
   0% {
     transform: translate(0, 0);
   }
+
   100% {
     transform: translate(80px, 80px);
   }
 }
 
 @keyframes twinkle {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 0.3;
     transform: scale(1);
   }
+
   50% {
     opacity: 1;
     transform: scale(1.5);
@@ -101,10 +123,13 @@ body {
 }
 
 @keyframes twinkle-delayed {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 0.2;
     transform: scale(1);
   }
+
   50% {
     opacity: 0.9;
     transform: scale(1.4);
@@ -112,10 +137,13 @@ body {
 }
 
 @keyframes twinkle-slow {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 0.4;
     transform: scale(1);
   }
+
   50% {
     opacity: 1;
     transform: scale(1.3);

@@ -9,13 +9,13 @@ export default function AnimatedBackground() {
       </div>
 
       {/* Floating orbs */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-accent-start/20 rounded-full blur-3xl animate-float-slow" />
-      <div className="absolute top-1/3 right-1/4 w-80 h-80 bg-accent-end/20 rounded-full blur-3xl animate-float-delayed" />
-      <div className="absolute bottom-1/4 left-1/3 w-72 h-72 bg-accent-start/15 rounded-full blur-3xl animate-float-medium" />
+      <div className="absolute -top-10 -left-10 w-96 h-96 bg-accent-start/20 rounded-full blur-3xl animate-float-slow" />
+      <div className="absolute top-0 -right-10 w-80 h-80 bg-accent-end/20 rounded-full blur-3xl animate-float-delayed" />
+      <div className="absolute top-1/4 -left-20 w-72 h-72 bg-accent-start/15 rounded-full blur-3xl animate-float-medium" />
 
       {/* Smaller accent orbs */}
-      <div className="absolute top-1/2 right-1/3 w-48 h-48 bg-accent-end/25 rounded-full blur-2xl animate-pulse-slow" />
-      <div className="absolute bottom-1/3 right-1/2 w-56 h-56 bg-accent-start/20 rounded-full blur-2xl animate-float-reverse" />
+      <div className="absolute top-[15%] right-[5%] w-48 h-48 bg-accent-end/25 rounded-full blur-2xl animate-pulse-slow" />
+      <div className="absolute top-[40%] -right-10 w-56 h-56 bg-accent-start/20 rounded-full blur-2xl animate-float-reverse" />
 
       {/* Grid overlay with animation */}
       <div className="absolute inset-0 opacity-10">
