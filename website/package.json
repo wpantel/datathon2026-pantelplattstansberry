@@ -11,6 +11,7 @@
   "dependencies": {
     "@types/lodash": "^4.17.23",
     "@types/plotly.js": "^3.0.9",
+    "framer-motion": "^12.33.0",
     "lodash": "^4.17.23",
     "next": "16.1.6",
     "plotly.js": "^3.3.1",
