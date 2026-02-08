@@ -1,8 +1,8 @@
 import Header from '@/components/Header';
 import ScrollSection from '@/components/ScrollSection';
 import StatsCard from '@/components/StatsCard';
-import FeatureCard from '@/components/FeatureCard';
 import AnimatedBackground from '@/components/AnimatedBackground';
+import PlanetDropAnimation from '@/components/PlanetDropAnimation';
 import Link from 'next/link';
 
 export default function Home() {
@@ -12,6 +12,7 @@ export default function Home() {
 
       <main className="relative overflow-hidden">
         <AnimatedBackground />
+        <PlanetDropAnimation />
 
         {/* Hero Section */}
         <section className="relative z-10 pt-32 pb-20 px-6">
