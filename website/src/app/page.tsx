@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import ScrollSection from '@/components/ScrollSection';
 import StatsCard from '@/components/StatsCard';
 import FeatureCard from '@/components/FeatureCard';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -20,16 +21,19 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-              Leveraging machine learning and demographic insights to forecast air quality
+              Applying machine learning and demographic insights to forecast air quality
               across communities
             </p>
             <div className="flex gap-4 justify-center">
-              <button className="px-8 py-3 bg-accent-end text-white rounded-full font-medium hover:bg-accent-start transition-colors">
-                Explore Models
-              </button>
-              <button className="px-8 py-3 bg-gray-800 text-white rounded-full font-medium border border-gray-700 hover:border-gray-600 hover:bg-gray-700 transition-colors">
+              <Link href="/visuals" className="px-8 py-3 bg-accent-end text-white rounded-full font-medium hover:bg-accent-start transition-colors">
+                Explore Visuals
+              </Link>
+              <Link
+                href="#data"
+                className="px-8 py-3 bg-gray-800 text-white rounded-full font-medium border border-gray-700 hover:border-gray-600 hover:bg-gray-700 transition-colors"
+              >
                 View Data
-              </button>
+              </Link>
             </div>
           </ScrollSection>
         </div>

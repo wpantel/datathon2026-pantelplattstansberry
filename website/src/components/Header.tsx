@@ -7,11 +7,11 @@ export default function Header() {
   const [activeNav, setActiveNav] = useState('');
 
   const navItems = [
-    { name: 'Visuals', href: '/visuals' },
+    { name: 'Data', href: '/data' },
     { name: 'Process', href: '/process' },
-    { name: 'Impact', href: '#impact' },
-    { name: 'Data', href: '#data' },
-    { name: 'About', href: '#about' },
+    { name: 'Findings', href: '/findings' },
+    { name: 'Visuals', href: '/visuals' },
+    { name: 'About', href: '/about' },
   ];
 
   return (
