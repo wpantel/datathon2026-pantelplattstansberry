@@ -6,3 +6,9 @@
 
 # agent workflows for Gemini
 .agent/
+
+# website
+website/
+
+# previous-datasets
+previous-datasets/
