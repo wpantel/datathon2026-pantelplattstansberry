@@ -1,13 +1,17 @@
-Predicting AQI from Census Data
---
-DubsTech Datathon 2026
-Machine Learning Track
-Access to a Livable Plant
+# Platypus
+**Submission for DubsTech Datathon 2026**
 
---Model Performance--
-Accuracy:
-91.01% Within 12 AQI points
-85.71% Within 10 AQI points
+Predict median AQI in U.S. counties accurately based on socioeconomic factors.
 
-Error Margin: 5.3 AQI points
-R^2 = 0.534
+## Model Performance
+
+**Accuracy**
+
+- 91.01% — Within 12 AQI points
+- 85.71% — Within 10 AQI points
+
+## Contributors
+
+William Pantel  
+Ian Stansberry  
+Dominic Platt
